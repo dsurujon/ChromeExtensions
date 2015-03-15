@@ -1,2 +1,2 @@
-document.body.innerHTML = document.body.innerHTML.replace(new RegExp("Nicolas Cage","g"), "One True God");
-document.body.innerHTML = document.body.innerHTML.replace(new RegExp("Cage","g"), "His Holiness");
+document.body.innerHTML = document.body.innerHTML.replace(/(\bNicolas Cage\b)/g, "The One True God");
+document.body.innerHTML = document.body.innerHTML.replace(/(\bCage\b)/g, "His Holiness");
